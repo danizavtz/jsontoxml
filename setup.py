@@ -103,13 +103,12 @@ def find_package_data(
     return out
 
 
-PACKAGE = "gaepermission"
-DESCRIPTION = "Tekton app to handle user login and permissions based on groups and holes" \
-              ""
+PACKAGE = "j2x"
+DESCRIPTION = "aplicativo que pega um usuario do github consulta o seu username e exibe o xml correspondente ao json do usuario"
 NAME = PACKAGE
-AUTHOR = "Renzo Nuccitelli"
-AUTHOR_EMAIL = "renzo.n@gmail.com"
-URL = "https://github.com/renzon/gaepermission"
+AUTHOR = "Danizavtz"
+AUTHOR_EMAIL = "daniellucena@yahoo.com.br"
+URL = "https://github.com/danizavtz/jsontoxml"
 VERSION = __import__(PACKAGE).__version__
 
 setup(
@@ -124,22 +123,17 @@ setup(
     packages=find_packages(exclude=["tests.*", "tests"]),
     package_data=find_package_data(PACKAGE, only_in_packages=False),
     classifiers=[
-        "Development Status :: 4 - Beta",
+        "Development Status :: 4 - ALPHA",
         "Environment :: Web Environment",
         "Intended Audience :: Developers",
         "License :: OSI Approved :: BSD License",
         "Operating System :: OS Independent",
         "Programming Language :: Python",
-        "Framework :: Paste",
+        "Framework :: none",
     ],
     zip_safe=False,
     install_requires=[
-        'gaecookie>=0.6',
-        'gaebusiness>=3.0',
-        'gaegraph>=3.5',
-        'gaeforms>=0.3',
-        'pytz>=2014.4',
-        'Babel==1.3',
-        'tekton==4.2'
+        'requests >= 0.1',
+        'xmltodict >=0.9',
     ]
 )
