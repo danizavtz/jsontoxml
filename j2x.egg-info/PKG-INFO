@@ -8,10 +8,10 @@ Author-email: daniellucena@yahoo.com.br
 License: MIT
 Description: https://github.com/danizavtz/jsontoxml
 Platform: UNKNOWN
-Classifier: Development Status :: 4 - BETA
+Classifier: Development Status :: 4 - Beta
 Classifier: Environment :: Web Environment
 Classifier: Intended Audience :: Developers
 Classifier: License :: OSI Approved :: BSD License
 Classifier: Operating System :: OS Independent
 Classifier: Programming Language :: Python
-Classifier: Framework :: none
+Classifier: Framework :: Paste
