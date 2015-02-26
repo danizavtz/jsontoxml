@@ -1,0 +1,10 @@
+setup.py
+j2x/__init__.py
+j2x/programaJsonToXml.py
+j2x/setup.py
+j2x.egg-info/PKG-INFO
+j2x.egg-info/SOURCES.txt
+j2x.egg-info/dependency_links.txt
+j2x.egg-info/not-zip-safe
+j2x.egg-info/requires.txt
+j2x.egg-info/top_level.txt
